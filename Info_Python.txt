@@ -1,0 +1,1 @@
+eval(input())  :- It will convert the data type according to input, no need to define any other data types while taking input form the User
