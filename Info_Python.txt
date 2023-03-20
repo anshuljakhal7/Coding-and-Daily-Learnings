@@ -1,1 +1,14 @@
 eval(input())  :- It will convert the data type according to input, no need to define any other data types while taking input form the Users
+
+ 
+https://regex101.com/
+ 
+import os,re
+data=[]
+if os.path.exists("C:\\Users\\user\\Documents\\file.txt"):
+    with open("C:\\Users\\user\\Documents\\file.txt",'r') as f:
+            data = f.readlines()
+
+result = re.findall(r"\"\w+\"",str(data))   # \w means alphanumeric
+print(result)
+f.close()
